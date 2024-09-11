@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/os/os_070_8/Documents/2Ex1/build",
+  "command": "/usr/bin/gcc  -I/home/os/os_070_8/Documents/2Ex1/include -g -o CMakeFiles/2EX1.dir/src/main.c.o -c /home/os/os_070_8/Documents/2Ex1/src/main.c",
+  "file": "/home/os/os_070_8/Documents/2Ex1/src/main.c",
+  "output": "CMakeFiles/2EX1.dir/src/main.c.o"
+},
+{
+  "directory": "/home/os/os_070_8/Documents/2Ex1/build",
+  "command": "/usr/bin/gcc  -I/home/os/os_070_8/Documents/2Ex1/include -g -o CMakeFiles/2EX1.dir/src/parent.c.o -c /home/os/os_070_8/Documents/2Ex1/src/parent.c",
+  "file": "/home/os/os_070_8/Documents/2Ex1/src/parent.c",
+  "output": "CMakeFiles/2EX1.dir/src/parent.c.o"
+}
+]

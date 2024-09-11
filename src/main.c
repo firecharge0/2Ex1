@@ -8,10 +8,12 @@
 #include "parent.h"
 
 int main() {
-  int bloodline = 0;
-  Parent(bloodline);
-  bloodline = 1;
-  Parent(bloodline);
-  Parent(bloodline);
+  pid_t child = Parent();
+  pid_t child2 = Parent();
+  pid_t child3 = Parent();
+  wait(child);
+  wait(child2);
+  wait(child3);
+
   return 0;
 }

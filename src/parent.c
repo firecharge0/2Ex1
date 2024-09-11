@@ -1,14 +1,23 @@
 #include "parent.h"
 
-void Parent(int a) {
+pid_t Parent() {
   pid_t p = fork();
-  if (a == 1) {
-    pid_t p = 0;
-  }
   if (p == 0) {
     printf("I'm a child, and my id is: %d\n", getpid());
-    execlp("./greetings", "./greetings", NULL);
-  } else {
-    execlp("./greetings", "./greetings", NULL);
+    p = fork();
+    if (p == 0) {
+      execlp("./greetings", "./greetings", NULL);
+      exit(0);
+    }
+    pid_t temp = p;
+    p = fork();
+    if (p == 0) {
+      execlp("./greetings", "./greetings", NULL);
+      exit(0);
+    }
+    wait(temp);
+    wait(p);
+    exit(0);
   }
+  return p;
 }

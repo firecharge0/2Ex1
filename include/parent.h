@@ -6,5 +6,5 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <wait.h>
-void Parent(int a);
+pid_t Parent();
 #endif

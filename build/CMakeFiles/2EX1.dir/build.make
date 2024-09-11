@@ -73,29 +73,29 @@ CMakeFiles/2EX1.dir/src/main.c.o: CMakeFiles/2EX1.dir/flags.make
 CMakeFiles/2EX1.dir/src/main.c.o: /home/os/os_070_8/Documents/2Ex1/src/main.c
 CMakeFiles/2EX1.dir/src/main.c.o: CMakeFiles/2EX1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/os/os_070_8/Documents/2Ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2EX1.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2EX1.dir/src/main.c.o -MF CMakeFiles/2EX1.dir/src/main.c.o.d -o CMakeFiles/2EX1.dir/src/main.c.o -c /home/os/os_070_8/Documents/2Ex1/src/main.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2EX1.dir/src/main.c.o -MF CMakeFiles/2EX1.dir/src/main.c.o.d -o CMakeFiles/2EX1.dir/src/main.c.o -c /home/os/os_070_8/Documents/2Ex1/src/main.c
 
 CMakeFiles/2EX1.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/2EX1.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/os/os_070_8/Documents/2Ex1/src/main.c > CMakeFiles/2EX1.dir/src/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/os/os_070_8/Documents/2Ex1/src/main.c > CMakeFiles/2EX1.dir/src/main.c.i
 
 CMakeFiles/2EX1.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/2EX1.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/os/os_070_8/Documents/2Ex1/src/main.c -o CMakeFiles/2EX1.dir/src/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/os/os_070_8/Documents/2Ex1/src/main.c -o CMakeFiles/2EX1.dir/src/main.c.s
 
 CMakeFiles/2EX1.dir/src/parent.c.o: CMakeFiles/2EX1.dir/flags.make
 CMakeFiles/2EX1.dir/src/parent.c.o: /home/os/os_070_8/Documents/2Ex1/src/parent.c
 CMakeFiles/2EX1.dir/src/parent.c.o: CMakeFiles/2EX1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/os/os_070_8/Documents/2Ex1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/2EX1.dir/src/parent.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2EX1.dir/src/parent.c.o -MF CMakeFiles/2EX1.dir/src/parent.c.o.d -o CMakeFiles/2EX1.dir/src/parent.c.o -c /home/os/os_070_8/Documents/2Ex1/src/parent.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2EX1.dir/src/parent.c.o -MF CMakeFiles/2EX1.dir/src/parent.c.o.d -o CMakeFiles/2EX1.dir/src/parent.c.o -c /home/os/os_070_8/Documents/2Ex1/src/parent.c
 
 CMakeFiles/2EX1.dir/src/parent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/2EX1.dir/src/parent.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/os/os_070_8/Documents/2Ex1/src/parent.c > CMakeFiles/2EX1.dir/src/parent.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/os/os_070_8/Documents/2Ex1/src/parent.c > CMakeFiles/2EX1.dir/src/parent.c.i
 
 CMakeFiles/2EX1.dir/src/parent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/2EX1.dir/src/parent.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/os/os_070_8/Documents/2Ex1/src/parent.c -o CMakeFiles/2EX1.dir/src/parent.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/os/os_070_8/Documents/2Ex1/src/parent.c -o CMakeFiles/2EX1.dir/src/parent.c.s
 
 # Object files for target 2EX1
 2EX1_OBJECTS = \
